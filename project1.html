@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title
+   ================================================== -->
+	<title>Christopher Snead | Project One</title>
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font 
+   ================================================== -->	
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand">
+                <a href="index.html">Christopher Snead</a>
+              </div>
+
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe"></i>
+                    <div class="intro-inner">
+                     	<ul id="nav-menu">
+                         <li><a href="index.html">Home</a></li>
+                       	 <li><a href="about.html">About</a></li>
+                       	 <li><a href="resume.html">Resume</a></li>
+			 <li><a href="the-vegan-wardrobe.html">Blog</a></li>
+                       	 <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+         </div>
+      </div>
+
+   </nav>
+</div>
+
+
+<!-- Header section
+================================================== -->
+<section id="header" class="header-two">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+           		 <div class="header-thumb">
+              		 <h1 class="wow fadeIn" data-wow-delay="1.6s">Restaurant Menu</h1>
+              		 <h3 class="wow fadeInUp" data-wow-delay="1.9s">C++ program that simulates an online restaurant menu</h3>
+           		 </div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+
+<!-- Single Project section
+================================================== -->
+<section id="single-project">
+   <div class="container">
+      <div class="row">
+
+         <div class="wow fadeInUp col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4" data-wow-delay="2.3s">
+			<div class="project-info">
+				<h4>Author</h4>
+				<p>Christopher Snead</hp>
+			</div>
+			<div class="project-info">
+				<h4>Date</h4>
+				<hp>15 February 2017</p>
+			</div>
+			<div class="project-info">
+				<h4>Language</h4>
+				<p>C++</p>
+			</div>
+		</div>
+
+		<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="2.6s">
+			<p>This program simulates an online restaurant, where users can choose between the “breakfast menu” the “lunch menu” or the “dinner menu” and then choose food items to purchase from one of these menus. Although this program works successfully when using proper inputs, the project did not ask for error checking, therefore cannot be considered "finished". This project is here only to showcase what I have learned and how I have developed.</p>
+			<!--<p>Below is a link to the project code:</p>-->
+			<pre>
+  				<code>
+//---------------------------------------------------------------
+// Purpose: Allow users to select an item from one of three menus
+// Author: Christopher Snead
+//---------------------------------------------------------------
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+   //Equation variables
+   float item_price = 0;
+   int item_quantity = 0;
+
+   // Print message asking user to select from menu
+   cout << "Which menu would you like to order from?\n";
+   cout << "    B = Breakfast\n";
+   cout << "    L = Lunch\n";
+   cout << "    D = Dinner\n";
+   cout << "Your choice: ";
+
+   // Read input
+   string user_choice = "";
+   cin >> user_choice;
+   cout << user_choice << endl;
+
+   // Print message asking user to chose an item
+   if (user_choice == "B")
+   {
+      cout << "You chose breakfast\n";
+      cout << "Which item would you like to order?\n";
+      cout << "    E = Eggs Benedict - $4.99\n";
+      cout << "    O = Omelette - $3.99\n";
+      cout << "    C = Crepe - $3.99\n";
+      cout << "    F = French Toast - $4.99\n";
+      cout << "    W = Waffles - $4.99\n";
+      cout << "Your choice: ";
+      cin >> user_choice;
+
+      if (user_choice == "E")
+      {
+         cout << "You chose Eggs Benedict\n";
+         item_price = 4.99;
+      }
+      else if (user_choice == "O")
+      {
+         cout << "You chose Omelette\n";
+	 item_price = 3.99;
+      }
+      else if (user_choice == "C")
+      {
+         cout << "You chose Crepe\n";
+         item_price = 3.99;
+      }
+      else if (user_choice == "F")
+      {
+         cout << "You chose French Toast\n";
+         item_price = 4.99;
+      }
+      else if (user_choice == "W")
+      {
+         cout << "You chose Waffles\n";
+         item_price = 4.99;
+      }
+   }
+   if (user_choice == "L")
+   {
+      cout << "You chose lunch\n";
+      cout << "Which item would you like to order?\n";
+      cout << "    C = Chili - $4.99\n";
+      cout << "    T = Thai Salad - $5.99\n";
+      cout << "    B = Burger - $5.99\n";
+      cout << "    V = Veggie Tacos - $3.99\n";
+      cout << "    G = Grilled Cheese - $2.99\n";
+      cout << "Your choice: ";
+      cin >> user_choice;
+
+      if (user_choice == "C")
+      {
+         cout << "You chose Chili\n";
+	 item_price = 4.99;
+      }
+      else if (user_choice == "T")
+      {
+         cout << "You chose Thai Salad\n";
+	 item_price = 5.99;
+      }
+      else if (user_choice == "B")
+      {
+         cout << "You chose Burger\n";
+	 item_price = 5.99;
+      }
+      else if (user_choice == "V")
+      {
+         cout << "You chose Veggie Tacos\n";
+         item_price = 3.99;
+      }
+      else if (user_choice == "G")
+      {
+         cout << "You chose Grilled Cheese\n";
+	 item_price = 2.99;
+      }
+   }
+   if (user_choice == "D")
+   {
+      cout << "You chose dinner\n";
+      cout << "Which item would you like to order?\n";
+      cout << "    C = Caesar Salad - $4.99\n";
+      cout << "    V = Veggie Sandwich - $7.99\n";
+      cout << "    T = Thai Curry - $8.99\n";
+      cout << "    E = Eggplant Parmesan - $8.99\n";
+      cout << "    S = Spaghetti - $7.99\n";
+      cout << "Your choice: ";
+      cin >> user_choice;
+      if (user_choice == "C")
+      {
+         cout << "You chose Caesar Salad\n";
+         item_price = 4.99;
+      }
+      else if (user_choice == "V")
+      {
+         cout << "You chose Veggie Sandwich\n";
+	 item_price = 7.99;
+      }
+      else if (user_choice == "T")
+      {
+         cout << "You chose Thai Curry\n";
+	 item_price = 8.99;
+      }
+      else if (user_choice == "E")
+      {
+         cout << "You chose Eggplant Parmesan\n";
+	 item_price = 8.99;
+      }
+      else if (user_choice == "S")
+      {
+         cout << "You chose Spaghetti\n";
+	 item_price = 7.99;
+      }
+   }
+
+   //Ask user how many orders of item they want
+   cout << "How many orders of this item would you like to place?\n";
+   cout << "Quantity: ";
+   cin >> item_quantity;
+
+   //Calculate order total
+   float total_cost = 0;
+   total_cost = item_price * item_quantity * 1.05;
+   cout << "Your order total is "<< fixed << setprecision(2)
+	<< "$" << total_cost << endl;
+
+   //Ask user if they would like to submit order
+   cout <<"Do you wish to order this food now? (yes/no)\n";
+   cout << "Your choice: ";
+   cin >> user_choice;
+   if (user_choice == "yes")
+   {
+      cout << "Thank you for placing your order!\n";
+   }
+   else if (user_choice == "no")
+   {
+      cout << "Sorry we couldn't help you!\n";
+   }
+   else
+   {
+   cout << "Sorry, you did not type yes/no\n";
+   }
+
+   return 0;
+}
+  				</code>
+			</pre>
+				<!--<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+					<li><a href="https://github.com/chrissnead/restaurant-menu"><i class="fa fa-code fa-2x"></i>&nbsp; Project One</a></li>
+				</ul>-->
+
+
+		</div>
+
+      </div>
+   </div>
+</section>
+
+
+<!-- Footer section
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2017 Christopher Snead</p>
+				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+					<li><a href="https://www.facebook.com/cdsnead" class="fa fa-facebook"></a></li>
+					<li><a href="https://github.com/chrissnead" class="fa fa-github"></a></li>
+					<li><a href="https://www.instagram.com/qrissnead/" class="fa fa-instagram"></a></li>
+					<li><a href="https://www.linkedin.com/in/christophersnead" class="fa fa-linkedin"></a></li>
+					<li><a href="https://soundcloud.com/chrissnead" class="fa fa-soundcloud"></a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Javascript 
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
