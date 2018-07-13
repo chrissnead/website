@@ -136,7 +136,6 @@ img {
 /* ========================================== */
 .nav-container,
 nav {
-  position: fixed;
   overflow: visible;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
