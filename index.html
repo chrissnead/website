@@ -306,17 +306,17 @@
 <script src="js/owl.carousel.min.js"></script>
 	
 <script>
-$(document).ready(function() {
+//$(document).ready(function() {
 
-    $("#slider").owlCarousel({
+  //  $("#slider").owlCarousel({
 
-        items: 1,
-	loop: true,
-	margin: 10,
-	autoPlay: true,
-	autoplayTimeout:1000,
-    	autoplayHoverPause: true,
-	autoHeight: true
+    //    items: 1,
+	//loop: true,
+//	margin: 10,
+//	autoPlay: true,
+//	autoplayTimeout:1000,
+  //  	autoplayHoverPause: true,
+//	autoHeight: true
 	//navigation : false, // Show next and prev buttons
         //slideSpeed : 300,
         //paginationSpeed : 400,
@@ -328,8 +328,24 @@ $(document).ready(function() {
         // itemsDesktopSmall : false,
         // itemsTablet: false,
         // itemsMobile : false
-    });
+  //  });
+//});
+	
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
 });
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
 </script>
 
 </body>
