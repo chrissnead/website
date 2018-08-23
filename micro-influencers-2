@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108372148-1"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'UA-108372148-1');
+	</script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title
+   ================================================== -->
+	<title>Christopher Snead | Who I'm Following: Micro-Influencers Pt. 2</title>
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font 
+   ================================================== -->	
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand">
+                <a href="index.html">Christopher Snead</a>
+              </div>
+
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe"></i>
+                    <div class="intro-inner">
+                     	<ul id="nav-menu">
+                         <li><a href="index.html">Home</a></li>
+			 <li><a href="archive.html">Archive</a></li>
+			 <li><a href="essentials.html">Essentials</a></li>
+                       	 <li><a href="about.html">About</a></li>
+                       	 <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+         </div>
+      </div>
+
+   </nav>
+</div>
+
+<!-- Header section
+================================================== -->
+<section id="header" class="header-three">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+          <div class="header-thumb">
+              <h1 class="wow fadeIn" data-wow-delay="0.6s">Who I'm Following</h1>
+              <!--<h3 class="wow fadeInUp" data-wow-delay="0.9s">Closet Essentials & Inspirations</h3>-->
+          </div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+
+<!-- Single Post section
+================================================== -->
+<section id="single-post">
+   <div class="container">
+      <div class="row">
+
+         <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.5s">
+         	  <div class="blog-thumb">
+         		   
+         		   <h1>Micro-Influencers Pt. 2</h1>
+         			    <div class="post-format">
+						        <span><i class="fa fa-date"></i> 22 August 2018, Friday</span>
+					       </div>
+			  <p>A couple weeks ago I recommended some micro-influencers who I feel are slowly gaining recognition in the menswear community. I want to do that today but with those above a 10k following. I’ll say it again, the thing I love most about micro-influencers is that they are just ordinary people with a passion for anything from fashion to travel, and sometimes both. I find myself keeping up with their content a lot more than the guys with 100k+ followers and I think the reason behind this is because they’re relatable. I’ve communicated with many of these guys, sometimes with a general question and other times just to chat about our similar likings on topics of fashion. If you’re trying to get into the menswear community or want some quality advice to step up your fashion game, check these guys out:</p>
+               
+         	  </div>
+		    </div>
+
+      </div>
+   </div>
+</section>
+
+<!-- Single Post section
+================================================== -->
+<section id="single-post">
+   <div class="container">
+      <div class="row">
+
+         <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.5s">
+         	  <div class="blog-thumb">
+			  
+               <h1>1. Harry Spain (<a href="https://www.instagram.com/mr.fits/">@mr.fits</a>)</h1>
+	       		<a href="https://www.instagram.com/mr.fits/"><img src="images/mrfits.jpg" class="img-responsive post-image col-md-4 col-sm-6" alt="mr.fits"></a>
+			<p>If you’re needing a good grid inspiration, Harry is your guy. His wardrobe seems to consist of many muted basics and autumn tones. I find a lot of inspiration from his page just because it’s so aesthetically pleasing. I don’t know why but his photos often remind me of a cold rainy day on the coast. Although that may not be his intention, I always know a mr.fits post when I see one.</p>
+               
+         	  </div>
+		    </div>
+
+      </div>
+   </div>
+</section>
+	
+<!-- Single Post section
+================================================== -->
+<section id="single-post">
+   <div class="container">
+      <div class="row">
+
+         <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.5s">
+         	  <div class="blog-thumb">
+         		   
+	       <h1>2. Harry Young (<a href="https://www.instagram.com/harryhas/">@harryhas</a>)</h1>
+               		<a href="https://www.instagram.com/harryhas/"><img src="images/harryhas.jpg" class="img-responsive post-image col-md-4 col-sm-6" alt="harryhas"></a>
+               		<p>I’ve been keeping up with Harry Young for quite some time. He’s one influencer I feel shares a lot of the same fashion tastes as me, so I often find myself scrolling through his content more than others. He has recently been experimenting with some really creative shots that take fashion and lifestyle blogging to a whole new level. I love that he is constantly improving and keeping it interesting because it’s so easy to stick to the same type of content. Give your feed something new and give this guy a follow.</p>
+               
+         	  </div>
+		    </div>
+
+      </div>
+   </div>
+</section>
+	
+<!-- Single Post section
+================================================== -->
+<section id="single-post">
+   <div class="container">
+      <div class="row">
+
+         <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.5s">
+         	  <div class="blog-thumb">
+         		   
+	       <h1>3. Jordan Bunker (<a href="https://www.instagram.com/jordanbunker/">@jordanbunker</a>)</h1>
+               		<a href="https://www.instagram.com/jordanbunker/"><img src="images/jordanbunker.jpg" class="img-responsive post-image col-md-4 col-sm-6" alt="jordanbunker"></a>
+			<p></p>
+               
+         	  </div>
+		    </div>
+
+      </div>
+   </div>
+</section>
+	
+<!-- Footer section
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2018 Christopher Snead</p>
+				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+					<li><a href="https://www.facebook.com/cdsnead" class="fa fa-facebook"></a></li>
+					<li><a href="https://www.instagram.com/qrissnead/" class="fa fa-instagram"></a></li>
+					<li><a href="https://www.linkedin.com/in/christophersnead" class="fa fa-linkedin"></a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+<!-- Javascript 
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
