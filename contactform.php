@@ -33,10 +33,10 @@ if(isset($_POST['email'])) {
     $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
-  if(!preg_match($string_exp,$first_name)) {
+  if(!preg_match($string_exp,$name)) {
     $error_message .= 'The Name you entered does not appear to be valid.<br />';
   }
-  if(strlen($comments) < 2) {
+  if(strlen($message) < 2) {
     $error_message .= 'The Message you entered does not appear to be valid.<br />';
   }
   if(strlen($error_message) > 0) {
