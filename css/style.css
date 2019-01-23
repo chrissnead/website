@@ -457,7 +457,7 @@ a.icon {
 }
 
 #portfolio img {
-  width: 100%;
+  width: 50%;
 }
 
 #portfolio .portfolio-thumb {
@@ -486,7 +486,7 @@ a.icon {
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
     text-align: center;
-    padding: 30% 20px 20px;
+    padding: 20% 20px 20px;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .fa {
