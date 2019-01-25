@@ -663,9 +663,18 @@ a.icon {
   border-radius: 0px;
   padding: 10px 32px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: 22px;
   transition: all 0.4s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  color: #fff;
+  font-family: ltc-bodoni-175, serif;
+  font-size: 1.8rem;
+  border-color: transparent;
 }
 #blog .blog-thumb .btn:hover,
 #single-post .btn:hover {
