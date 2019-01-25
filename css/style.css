@@ -183,7 +183,7 @@ nav a {
 }
 
 .brand {
-  font-family: san-serif;
+  font-family: ltc-bodoni-175, sans-serif;
   float: left;
   padding: 35px 0 0;
   transition: all 0.3s ease;
