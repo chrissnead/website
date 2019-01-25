@@ -674,6 +674,8 @@ a.icon {
   color: #fff;
   font-family: ltc-bodoni-175, serif;
   font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
   border-color: transparent;
 }
 #blog .blog-thumb .btn:hover,
