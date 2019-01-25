@@ -178,12 +178,12 @@ nav a {
 
 .brand {
   font-family: san-serif;
-  text-align: center;
+  float: left;
   padding: 35px 0 0;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
 .brand a {
