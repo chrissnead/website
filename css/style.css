@@ -50,6 +50,7 @@ h1 {
   color: #000;
   font-size: 1.8rem;
   font-weight: 400;
+  text-align: center;
 }
 
 h2 {
@@ -74,6 +75,15 @@ p {
   line-height: 28px;
   word-spacing: 1px;
   letter-spacing: 1px;
+}
+
+intro {
+  color: #000;
+  font-size: 14px;
+  line-height: 28px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  column-count: 2;
 }
 
 a {
