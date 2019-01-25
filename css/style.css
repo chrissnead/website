@@ -666,7 +666,7 @@ a.icon {
   text-transform: none;
   margin-top: 22px;
   transition: all 0.4s ease-in-out;
-  position: absolute;
+  /*position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -676,7 +676,7 @@ a.icon {
   font-size: 1.8rem;
   font-weight: 400;
   text-align: center;
-  border-color: transparent;
+  border-color: transparent;*/
 }
 #blog .blog-thumb .btn:hover,
 #single-post .btn:hover {
