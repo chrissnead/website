@@ -661,10 +661,10 @@ a.icon {
 #blog .blog-thumb .btn,
 #single-post .btn {
   border-radius: 0px;
-  padding: 10px 32px;
+  padding: 5px 16px;
   letter-spacing: 2px;
   text-transform: none;
-  margin-top: 22px;
+  margin-top: 0px;
   transition: all 0.4s ease-in-out;
   /*position: absolute;
   top: 50%;
@@ -691,7 +691,7 @@ a.icon {
 }
 
 .post-image {
-	margin: 25px 0px;
+	margin: 25px 315px;
 }
 
 #single-post .blog-comment,
