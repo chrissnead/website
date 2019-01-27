@@ -550,7 +550,7 @@ a.icon {
     padding: 8px 17px;
     margin-right: 2px;
     margin-left: 2px;
-    text-transform: uppercase;
+    text-transform: none;
     display: block;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
