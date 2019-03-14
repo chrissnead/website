@@ -87,7 +87,8 @@ h7 {
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 1.2rem;
-  text-align: right;
+  text-align: center;
+  position: center;
 }
 
 h7:hover {
