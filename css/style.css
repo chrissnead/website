@@ -517,7 +517,7 @@ a.icon {
   transition: all 0.4s ease-in-out;
 }
 
-#portfolio .portfolio-thumb:hover.portfolio-overlay {
+#portfolio .portfolio-thumb:hover .portfolio-overlay {
   opacity: 0.9;
 }
 
