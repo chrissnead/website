@@ -765,6 +765,11 @@ a.icon {
 
 #contact .contact-form {
   padding-top: 14px;
+  text-align: center;
+}
+
+#contact .checkbox-inline {
+  padding-top: 14px;
 }
 
 #contact .form-control {
